@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>goState${1:A1}: function() {
+ $0
+}${3:,}</string>
+	<key>name</key>
+	<string>State Definition</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>go</string>
+	<key>uuid</key>
+	<string>1A23CCF6-2110-46C3-816B-AEFBEFE2C0F8</string>
+</dict>
+</plist>
