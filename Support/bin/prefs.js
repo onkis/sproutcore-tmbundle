@@ -19,8 +19,8 @@ var JSLINT_PREFS = {
   sidebar: false,
   sub: false,
   undef: true,
-  white: true,
+  white: false,
   widget: false,
   indent: 2,
-  predef: ['SC', 'require', 'sc_super']
+  predef: ['SC', 'require', 'sc_super', 'Cp2', 'YES', 'NO','T_ARRAY', 'T_OBJECT', '$type', 'Ajax','static_url','Element','Event','YAHOO','Template']
 };
