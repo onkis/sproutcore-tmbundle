@@ -1,18 +1,18 @@
 var JSLINT_PREFS = {
   adsafe: false,
-  bitwise: true,
+  bitwise: false,
   browser: true,
   cap: false,
-  debug: false,
-  eqeqeq: true,
+  debug: true,
+  eqeqeq: false,
   evil: false,
-  forin: false,
+  forin: true,
   fragment: false,
   laxbreak: false,
-  nomen: true,
+  nomen: false, // allow leading _ in identifiers
   on: false,
   passfail: false,
-  plusplus: true,
+  plusplus: false,
   regexp: true,
   rhino: false,
   safe: false,
@@ -23,4 +23,5 @@ var JSLINT_PREFS = {
   widget: false,
   indent: 2,
   predef: ['SC', 'require', 'sc_super', 'Cp2', 'YES', 'NO','T_ARRAY', 'T_OBJECT', '$type', 'Ajax','static_url','Element','Event','YAHOO','Template']
+
 };
